@@ -77,6 +77,10 @@ def get_cache_dir(path=os.getcwd()):
         sys.exit(1)
 
 
+def get_version():
+    return VERSION
+
+
 def get_report_dir():
     return get_cache_dir() / "html"
 
